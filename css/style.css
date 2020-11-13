@@ -6,8 +6,16 @@
 	}
 
 	.bar {
+	
+	
+		position: fixed;
+
+		border:none;
+		border-top: 10px dotted#fbf7f0;
 		background-color:#d9e4dd;
-		height: 40px;
+		height:10px;
+		width: 100%;
+	
 
 	
 
@@ -16,7 +24,7 @@
 	.top-container {
 		background-color: #d9e4dd;
 		padding: 50px 0 30px 0;
-		position: relative;
+	
 	}
 
 	.middle-container {
@@ -72,7 +80,7 @@
 	hr {
 		border:none;
 		border-top: 10px dotted#d9e4dd;
-		color:black;
+	
 		background-color: #fbf7f0;
 		height:10px;
 		width: 70%;
@@ -130,7 +138,7 @@
 	}
 
 		
-	}
+	
 	.apple {
 		position: relative;
 		
@@ -208,6 +216,12 @@
 
 	}
 
-	
+	.b1:hover {
+		background-color: #fbf7f0 ;
+		border-radius: 30%;
+	}
 
-
+	.b2:hover {
+		background-color: #fbf7f0 ;
+		border-radius: 30%;
+	}
