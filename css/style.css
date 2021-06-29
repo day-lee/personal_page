@@ -6,48 +6,34 @@
 	}
 
 	.bar {
-	
-	
 		position: fixed;
-
 		border:none;
 		border-top: 10px dotted#fbf7f0;
 		background-color:#d9e4dd;
 		height:10px;
 		width: 100%;
 		padding: 0 0 40px 0;
-	
-
-	
-
 	}
 
 	.top-container {
 		background-color: #d9e4dd;
-		padding: 50px 0 30px 0;
-	
+		padding: 150px 0 30px 0;
 	}
 
 	.middle-container {
 		background-color: #fbf7f0;
-		padding: 100px auto 10px auto;
-		
-
-		
+		padding-top: 20px;
 	}
 
 	.contact-me {
 		background-color:#fbf7f0;
 		padding: 50px auto 50px auto;
-
-		
 	}
 
 	.bottom-container {
 		background-color:#c6b497;
 		padding: 30px 0 30px 0;
 		position: relative;
-		
 	}
 
     h1 {
@@ -56,18 +42,14 @@
 		line-height: 3;
 		color: #060930;
 		margin: 10px auto 0 auto;
-		
 	}
 
 	h2 {
-		
 		color:#31326f;
 		font-family: 'Montserrat', serif;
 		font-weight: normal;
 		font-size: 1.8rem;
 		margin: 0 auto 20px auto;
-		
-		
 	}
 
 	h3 {
@@ -77,11 +59,16 @@
 		margin: 0 auto 20px auto;
 	}
 
+	h4 {
+	    color:black;
+		font-family: 'Montserrat', serif;
+		font-size: 1.2rem;
+		margin: 0 auto 20px auto;
+	}
 
 	hr {
 		border:none;
 		border-top: 10px dotted#d9e4dd;
-	
 		background-color: #fbf7f0;
 		height:10px;
 		width: 70%;
@@ -89,10 +76,11 @@
 	  }
 
 	a {
-		color:#31326f;
+		color:#595b83;
 		font-family: 'Montserrat', serif;
-		font-size: 2rem;
+		font-size: 1.2rem;
 		margin: 0 auto 20px auto;
+		text-decoration:none !important
 	}
 
 	p {
@@ -105,45 +93,31 @@
 	.button1 {
 		display: inline-block;
 		margin-right: 10px;
-		position: relative;
 		left: 380px;
 	}
 
 	.button2 {
 		display: inline-block;
-		position: relative;
 		left: 400px;
 	}
 
-
 	.year18 {
 		display: inline-block;
-	
 		width: 370px;
 		padding-top: 25px;
-		position: relative;
 	}
-	
 
 	.year19 {
 		display: inline-block;
 		margin-right: 20px;
 		width: 370px;
-	
 	}
 
 	.year20 {
 		display: inline-block;
 		width: 370px;
-		position: relative;
 	}
 
-		
-	
-	.apple {
-		position: relative;
-		
-	}
 	.btn {
 		-webkit-border-radius: 15px;
 		-moz-border-radius: 15px;
@@ -165,7 +139,7 @@
 	 }
 	 
 	 .btn:hover {
-		background:  #c6b497;
+		background: #c6b497;
 		border: solid #c6b497 0;
 		-webkit-border-radius: 15px;
 		-moz-border-radius: 15px;
@@ -175,21 +149,11 @@
 
 	.circular {
 		border-radius: 30%;
-	
 	}
 
-	.coding {
-	
-		position: relative;
-	
-	
-	}
-
-	
 	.dy {
 		width: 200px;
 		height: 200px;
-		position: relative;
 		margin-bottom: 10px;
 
 	}
@@ -211,15 +175,14 @@
 		border-radius: 30%;
 	}
 
-	img:hover {
-		background-color: #d9e4dd;
+	.jobs:hover {
+        width: 115px;
 		border-radius: 30%;
-
 	}
 
 	.b1:hover {
 		background-color: #fbf7f0 ;
-		border-radius: 30%;
+		border-radius: 100%;
 	}
 
 	.b2:hover {
